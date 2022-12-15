@@ -1,3 +1,104 @@
 <resources>
     <string name="app_name">MAACApp</string>
+
+    <!-- Nuevos textos  -->
+    <string name="vallistmascota">Mascotas Perdidas</string>
+    <string name="valvoluntario">Voluntario</string>
+    <string name="valetusuario">Ingrese su usuario</string>
+    <string name="valetpassword">Ingrese su password</string>
+    <string name="valbtnlogin">INICIAR SESIÓN</string>
+    <string name="valbtnregistrar">REGISTRARME</string>
+    <string name="valchkguardardatos">Recordar</string>
+    <string name="msguspassword">Ingrese usuario y password</string>
+    <string name="action_cerrar">Cerrar sesión</string>
+    <string name="tvtituloregistro">REGISTRARME</string>
+    <string name="valetnomusuario">Ingrese su nombre</string>
+    <string name="valetapeusuario">Ingrese su apellido</string>
+    <string name="valetemailusuario">Ingrese su email</string>
+    <string name="valetcelusuario">Ingrese su celular</string>
+    <string name="valetusureg">Ingrese su usuario</string>
+    <string name="valetpassreg">Ingrese su password</string>
+    <string name="valetrepassreg">Vuelva a ingresar su password</string>
+    <string name="valbtnregistrarme">QUIERO REGISTRARME</string>
+    <string name="valbtnirlogin">VOLVER A LOGIN</string>
+
+
+    <string name="valbtnregvoluntario">REGISTRAR</string>
+    <string name="valtvtituvoluntario">¿Quieres ser voluntario?</string>
+
+    <string name="valbtnregistro">REGISTRAR USUARIO</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="valnavlistamascotafrag">Mascotas Perdidas</string>
+    <string name="valnavvoluntariofrag">Voluntario Patitas</string>
+    <string name="recordarlogin">¿Recordar datos?</string>
+    <string name="msgloginincompleto">Usuario y password son obligatorios</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Sal HDP</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <!-- Nuevos textos de Otro lado chequear bien  -->
+
+
+    <string name="DNI">Ingrese su DNI</string>
+    <string name="Nombre">Ingrese su nombre</string>
+    <string name="Apellido">Ingrese su apellido</string>
+    <string name="Celular">Ingrese su celular</string>
+    <string name="Direccion">Ingrese su Direccion</string>
+    <string name="Nacimiento">Fecha de nacimiento</string>
+    <string name="EmailUser">Ingrese su correo</string>
+    <string name="PasswordUser">Ingrese su contraseña</string>
+    <string name="Registrar">Registrar</string>
+    <string name="Salir">Salir</string>
+    <string name="Cancelar"> Cancelar</string>
+    <string name="valdia">dia</string>
+    <string name="valmes">mes</string>
+    <string name="valanio">año</string>
+    <string name="valinicia_sesion">Iniciar sesion</string>
+    <string name="valregistrarse_login">Registrar me</string>
+    <string name="valInicioContrasena">Ingrese su contraseña</string>
+    <string name="valInicioUsuario">Ingrese su correo</string>
+    <string name="Actualizar">Actualizar Contraseña</string>
+    <string name="NDni">Dni</string>
+    <string name="APELLIDOS">Apellidos</string>
+    <string name="NOMBRES">Nombres</string>
+    <string name="CORREO">Email</string>
+    <string name="CELULAR">Ingrese Numero Celular</string>
+    <string name="valfragmentprincipal">Principal</string>
+    <string name="valfragmentcarrito">Carrito</string>
+    <string name="valfragmentusuario">Usuario</string>
+    <string name="valfragmentlibro">Libro</string>
+    <string name="valfragmentayuda">Ayuda</string>
+
+    <string name="fragmentprincipal">Principal</string>
+    <string name="fragmentcarrito">Carrito</string>
+    <string name="fragmentusuario">Usuario</string>
+    <string name="fragmentlibro">Libro</string>
+    <string name="fragmentayuda">Ayuda</string>
+    <string name="title_activity_menu_cliente">MenuClienteActivity</string>
+    <string name="libro_de_reclamacion">Libro De Reclamacion</string>
+    <string name="necesito_ayuda">Necesito Ayuda</string>
+    <string name="todo">TODO</string>
+    <string name="celular">CELULAR</string>
+    <string name="valExplicacion">Explicación de reclamo</string>
+    <string name="valMotivoReclamo">Causa de Reclamo</string>
+    <string name="btReclamo">Registrar Reclamo</string>
+    <string name="valAyudaPregunta">Preguntas Frecuentes</string>
+    <string name="valSoles">S/. </string>
+    <string name="valPrec">0.00</string>
+    <string name="valActualizar">Actualizar Datos Ingresados</string>
+    <string name="valAgregar">Agregar</string>
+    <string name="valPrecio">Precio</string>
+    <string name="valTotal">Total</string>
+    <string name="valCerrarSesion">Cerrar Sesion</string>
+
+
+
 </resources>

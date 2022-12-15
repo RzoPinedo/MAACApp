@@ -7,32 +7,4 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <!-- Nuevos colores  -->
-    <color name="color_secundario">#733DF1</color>
-    <color name="color_secundario_variant">#510DEF</color>
-    <color name="color_gris">#DFDFDF</color>
-    <color name="color_gris_500">#9E9E9E</color>
-    <color name="snackbarerror">#EF0000</color>
-    <color name="snackbarexito">#165497</color>
-    <color name="snackbaradvertencia">#165497</color>
-
-    <color name="primaryColor">#6BC108</color>
-    <color name="primaryLightColor">#58a5f0</color>
-    <color name="DarkColor">#004c8c</color>
-    <color name="secondaryColor">#1a237e</color>
-    <color name="secondaryLightColor">#59C9FB</color>
-    <color name="secondaryDarkColor">#000051</color>
-    <color name="primaryTextColor">#ffffff</color>
-    <color name="fondoGlobal">#000000</color>
-    <color name="secondaryTextColor">#ffffff</color>
-
-    <!-- Registrar -->
-    <color name="whiteRegistrar">#FCFEFF</color>
-    <!-- Botones -->
-    <color name="rojo_cancelar">#E40606</color>
-    <color name="verde_registrar">#00BC13</color>
-    <!-- Alerta -->
-    <color name="alertDANGER">#E63123</color>
-    <color name="alertSUCCESS">#4CAF50</color>
-    <color name="alertINFO">#00BCD4</color>
 </resources>

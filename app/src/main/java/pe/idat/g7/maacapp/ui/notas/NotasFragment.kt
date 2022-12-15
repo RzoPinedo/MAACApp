@@ -1,0 +1,42 @@
+package pe.idat.g7.maacapp.ui.notas
+
+import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.TextView
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
+import pe.idat.g7.maacapp.databinding.FragmentNotasBinding
+
+class NotasFragment : Fragment() {
+
+    private var _binding: FragmentNotasBinding? = null
+
+    // This property is only valid between onCreateView and
+    // onDestroyView.
+    private val binding get() = _binding!!
+
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View {
+        val notasViewModel =
+            ViewModelProvider(this).get(NotasViewModel::class.java)
+
+        _binding = FragmentNotasBinding.inflate(inflater, container, false)
+        val root: View = binding.root
+
+        val textView: TextView = binding.textNotas
+        notasViewModel.text.observe(viewLifecycleOwner) {
+            textView.text = it
+        }
+        return root
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
+}

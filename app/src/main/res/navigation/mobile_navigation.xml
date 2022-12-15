@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_actividades">
+
+    <fragment
+        android:id="@+id/nav_actividades"
+        android:name="pe.idat.g7.maacapp.ui.actividades.ActividadesFragment"
+        android:label="@string/menu_actividades"
+        tools:layout="@layout/fragment_actividades" />
+
+    <fragment
+        android:id="@+id/nav_asistencias"
+        android:name="pe.idat.g7.maacapp.ui.asistencias.AsistenciasFragment"
+        android:label="@string/menu_asistencias"
+        tools:layout="@layout/fragment_asistencias" />
+
+
+    <fragment
+        android:id="@+id/nav_notas"
+        android:name="pe.idat.g7.maacapp.ui.notas.NotasFragment"
+        android:label="@string/menu_notas"
+        tools:layout="@layout/fragment_notas" />
+    <fragment
+        android:id="@+id/nav_tareas"
+        android:name="pe.idat.g7.maacapp.ui.tareas.TareasFragment"
+        android:label="@string/menu_tareas"
+        tools:layout="@layout/fragment_tareas" />
+    <fragment
+        android:id="@+id/nav_tramites"
+        android:name="pe.idat.g7.maacapp.ui.tramites.TramitesFragment"
+        android:label="@string/menu_tramites"
+        tools:layout="@layout/fragment_tramites" />
+    <fragment
+        android:id="@+id/nav_ubicacion"
+        android:name="pe.idat.g7.maacapp.ui.ubicacion.UbicacionFragment"
+        android:label="@string/menu_ubicacion"
+        tools:layout="@layout/fragment_ubicacion" />
+</navigation>

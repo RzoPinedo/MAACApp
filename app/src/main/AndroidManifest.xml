@@ -13,6 +13,13 @@
         android:theme="@style/Theme.MAACApp"
         tools:targetApi="31">
         <activity
+            android:name=".RegistroCursoActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".RegistroUsuarioActivity"
             android:exported="false">
             <meta-data
